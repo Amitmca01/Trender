@@ -1,0 +1,94 @@
+﻿
+
+@charset "utf-8";@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500,700);
+
+
+@font-face{font-family:'FontAwesome';src:url(../fonts/fontawesome-webfont.eot?v=4.4.0);src:url(../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0) format("embedded-opentype"),url(../fonts/fontawesome-webfont.woff2?v=4.4.0) format("woff2"),url(../fonts/fontawesome-webfont.woff?v=4.4.0) format("woff"),url(../fonts/fontawesome-webfont.ttf?v=4.4.0) format("truetype"),url(../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular) format("svg");font-weight:400;font-style:normal;}		
+
+
+.fa{font-family:'FontAwesome';display:inline-block;font-size:12px;font-style:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;width:30px;text-align:center;}
+.fa-facebook:before{content:"\f09a";}
+.fa-twitter:before{content:"\f099";}
+.fa-linkedin:before{content:"\f0e1";}
+
+
+header{width:100%;position:absolute;z-index:109;top:0;padding:0;background:rgb(127,127,127);background:rgba(0,0,0,0.5);}
+*::before, *::after{box-sizing:border-box;}
+*{margin:0;padding:0;box-sizing:border-box;}
+html, body{height:100%;}
+body{overflow-x:hidden;color:#666;font-family:"Segoe UI","Open Sans",sans-serif;font-size:15px;font-weight:400;}
+h1{font-size:50px;font-weight:300;margin-bottom:10px;line-height:1.07}
+h2{font-size:28px;margin-bottom:10px;line-height:1.08;color:#333;}
+h3{font-size:20px;margin-bottom:10px;line-height:1.2}
+p{margin-bottom:20px;}
+h2,h3,h4,aside h5, .quote, .menu1 ul li, footer .left li.head a,.home-certification li p{font-weight:700;}
+input,select{-webkit-appearance:none;-moz-appearance:none;}
+select{cursor:pointer;}.redtext{color:#51c0ef;}
+a{outline:none;}
+
+.clear{clear:both;}
+.outer{width:1200px;margin:auto;}
+section img{max-width:100%;}
+ul,li{list-style:none;}
+
+
+footer{background:#fec93b;padding:10px 0;color:#000;z-index:2;position: relative;}
+footer .social{float:right;}
+footer .social li{border-right:none;display:block;flex:1 0 33.33%;float:left;overflow:hidden;}
+footer .social li a {background: #333;padding: 2px;border-radius: 50%;display: block;box-sizing: border-box;width: 25px;text-align: center;margin: 0 5px;height: 25px;}
+footer .social li a .fa{font-size: 12px;color: #fec93b;padding: 0 8px 0 0;margin: 0;}
+footer .social-connect{overflow:hidden;padding: 10px 0;}
+footer .social-connect .copyright-txt{float:left;}
+
+
+/**page style*****/
+section {position: relative;}
+.the-header{background:#fff;width:100%;height:auto;}
+.the-header .right ul {list-style: none;position: relative;float: left;margin: 0;padding: 0;}
+.the-header .right ul li {position: relative;float: left;margin: 0;padding: 0;}  
+.the-header .right{float:right;width:auto;margin: 30px 0;}
+.the-header .right ul a {display: block;text-decoration: none;font-weight: 600;font-size: 15px;line-height: 32px;padding: 6px 20px;text-transform: unset;color: #3f3f3f;border: solid 1px #7F7F7F;border-radius: 2px;}
+.the-header .left{float:left;width:23%;}
+.the-header .right ul a:hover {background: #fec93b;border: solid 1px #fec93b;border-radius: 3px;}
+.the-header .left .logo{float: left;width: 67%;padding: 25px 0 0;}
+.the-header .left .logo img{width: 100%;outline: 0;border: 0;}
+.the-header .right ul li{font-size: 13px;font-weight: 700;margin-right: 20px;}
+
+.the-header .center-info {float: left;width: 100%;}
+.the-header .center-info .header-box {margin: auto 30%;text-align:center;}
+.the-header .center-info .header-box h2{font-size:15px;}
+
+.banner {width: 100%;min-height: 450px;float: left;background-image: url("../Images/banner-bg.jpg");background-size: 100%;background-position: right;padding: 215px 0 65px;}
+.home .banner .left {width: 44%;float: left;padding: 65px 0;}
+.home .banner .left h1 {color: #000;text-transform: uppercase;font-weight: 600;font-size: 40px;}
+.home .banner .left strong, .home .banner .left p {color: #000;}
+.home .banner .video-wrap {float: right;width: 55%;}
+.home .banner .video-wrap img{width:100%;}
+.sub-wrap {width: 45%;float: left;}
+.sub-wrap .form-group {margin-bottom: 15px;}
+.sub-wrap .form-control {padding: 15px 0;width: 100%;border-radius: 0;height: auto;box-shadow: none;border: none;border-bottom: 1px solid #000;background: none;}
+.input-style {padding: 9px 0;color: #666;font-size: 16px;font-weight: 500;}
+.sub-wrap .subscribe {background: #000;outline: none;border: 1px solid #000;overflow: hidden;padding: 10px 30px;border-radius: 1px;color: #fff;margin: auto 20%;float: left;width: auto;text-decoration: none;margin-top: 15px;}
+
+.shopping-wrap {padding: 80px 0;background-image: url("../Images/shopping-bg.jpg");background-size: cover;color: #000;}
+.shopping-wrap .inside-top {width: 55%;margin: auto;text-align: center;padding-bottom: 30px;}
+.shopping-wrap .inside-top h2 {font-size: 35px;margin-bottom: 15px;}
+ul.shop-list li {width: 13%;float: left;text-align: center;-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.055);box-shadow: 0 3px 14px rgba(0, 0, 0, 0.055);margin-right: 43px;padding: 15px;border-radius: 10px;}
+ul.shop-list li a {text-decoration: none;color: #000;}
+ul.shop-list li a:hover {font-weight: 700;}
+ul.shop-list li img {width: 55%;padding-bottom: 15px;}
+
+.shop-exp {padding: 70px 0;background-image: url("../Images/sec-bg.jpg");background-size: 100%;}
+.shop-exp .inside-tophd {width: 45%;margin: auto;text-align: center;top: 35px;position: relative;}
+.shop-exp .inside-tophd h2 {font-size: 50px;margin-bottom: 85px;color: #fff;font-weight: 500;}
+.subscribe {background: #fff;outline: none;border: 1px solid #fff;overflow: hidden;padding: 10px 30px;border-radius: 1px;color: #000;text-decoration: none;}
+ul.thumb-list {position: relative;top: 165px;}
+ul.thumb-list li{width:45%; float:left;}
+ul.thumb-list li img {width: 100%;}
+ul.thumb-list li:nth-child(1) {width: 18%;left: 20px;position: relative;top: 155px;}
+ul.thumb-list li:nth-child(2) {width: 63%;}
+ul.thumb-list li:nth-child(3) {width: 19%;position: relative;right: 50px;top: 225px;}
+
+.white-wrap {padding: 0 0 45px;background: #fff;}
+.white-wrap .star-bx {width: 15%;float: left;}
+.white-wrap .star-bx img{width:100%;}

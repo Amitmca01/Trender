@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css?family=Bungee+Inline');
+@import url('https://fonts.googleapis.com/css?family=Palanquin');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
+@import url('https://fonts.googleapis.com/css?family=Overlock');
+@import url('https://fonts.googleapis.com/css?family=Happy+Monkey');
+
+
+/
+
+
+
+
+.fa{font-family:'FontAwesome';display:inline-block;font-size:12px;font-style:normal;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;width:30px;text-align:center;}
+.fa-envelope-o:before{content:"\f003";}
+.fa-lock:before{content:"\f023";}
+.fa-search:before{content:"\f002";}
+.fa-support:before{content:"\f1cd";font-size:60px;color:#3aafa9;display:block;margin-bottom:15px;}
+.fa-times:before{content:"\f00d";font-style:normal;font-size:20px;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:'FontAwesome';}
+.fa-user:before{content:"\f007";}
+.fa-mortar-board:before{content:"\f19d";}
+.fa-mouse-pointer:before{content:"\f245";}
+.fa-edit:before{content:"\f044";}
+.fa-file-o:before{content:"\f016";}
+.fa-list-alt:before{content:"\f022";}
+.fa-graduation-cap:before{content:"\f19d";}
+.fa-users:before{content:"\f0c0";}
+.fa-cogs:before{content:"\f085";}
+.fa-book:before{content:"\f02d";}
+.fa-check-square-o:before{content:"\f046";}
+.fa-expand:before{content:"\f065";}
+.fa-picture-o:before{content:"\f03e";}
+.fa-headphones:before{content:"\f025";}
+.fa-stack-exchange:before{content:"\f18d";}
+.fa-bar-chart:before{content:"\f080";}
+.fa-cubes:before{content:"\f1b3";}
+.fa-pencil-square-o:before{content:"\f044";}
+.fa-share-alt:before{content:"\f1e0";}
+.fa-university:before{content:"\f19c";}
+.fa-search:before{content:"\f002";}
+.fa-facebook:before{content:"\f09a";}
+.fa-twitter:before{content:"\f099";}
+.fa-linkedin:before{content:"\f0e1";}
+.fa-envelope:before{content:"\f0e0";}
+.fa-youtube:before{content:"\f167";}
+.fa-pinterest:before{content:"\f0d2";}
+.fa-google-plus:before{content:"\f0d5";}
+.fa-map-marker:before{content:"\f041";}
+.fa-file-text:before{content:"\f15c";}
+.fa-file-o:before{content:"\f016";}
+.fa-edit:before{content:"\f044";}
+.fa-list-alt:before{content:"\f022";}
+.fa-user:before{content:"\f007";}
+.fa-mortar-board:before{content:"\f19d";}
+.fa-mouse-pointer:before{content:"\f245";}
+.fa-list-alt:before{content:"\f022";}
+.fa-cloud-download:before{content:"\f0ed";}
+.fa-reorder:before{content:"\f0c9";}
+.fa-chevron-left:before{content:"\f053";}
+.fa-chevron-right:before{content:"\f054";}
+.fa-gavel:before{content:"\f0e3";font-size:30px;}
+.fa-signal:before{content:"\f012";font-size:30px;}
+.fa-file-text-o:before{content:"\f0f6";font-size:30px;}
+.fa-balance-scale:before{content:"\f24e";font-size:30px;}
+.fa-group:before{content:"\f0c0";font-size:30px;}
+.fa-black-tie:before{content:"\f27e";font-size:30px;}
+.fa-user:before{content:"\f007";}
+.fa-check-square-o:before{content:"\f046";}
+.fa-clipboard:before{content:"\f0ea";}
+.fa-th-large:before{content:"\f009";}
+.fa-key:before{content:"\f084";}
+.fa-quote-right:before{content:"\f10e";}
+.fa-quote-left:before{content:"\f10d";}
+.fa-angle-down:before{content:"\f107";}
+.fa-angle-down{font-size:11px !important;}
+.fa-phone:before{content:"\f095";}
+.fa-pencil:before{content:"\f040";}
+.fa-building-o:before{content:"\f0f7";}
+.fa-gears:before{content:"\f085";}
+.fa-star:before{content:"\f005";}
+.fa-chevron-left:before{content:"\f053";}
+.fa-chevron-right:before{content:"\f054";}
+.fa-tripadvisor:before{content:"\f262";}
+
+.fa-bars:before {content: "\f0c9";}
+.fa-angle-double-right::before {content: "\f101";}
+.fa-play-circle::before {content: "\f144";}
+.fa-calendar-alt::before {content: "\f073";}
+.fa-angle-up::before {content: "\f106";font-size: 30px;}
+.fa-angle-double-right::before {content: "\f101";}
+.fa-angle-right::before {content: "\f105";}
+.fa-arrow-right::before {content: "\f061";}
+.fa-graduation-cap::before {content: "\f19d";color: #4D897C;}
+
+
